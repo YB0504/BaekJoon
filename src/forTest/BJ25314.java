@@ -1,6 +1,8 @@
+package forTest;
+
 import java.util.Scanner;
 
-public class LongInt {
+public class BJ25314 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
