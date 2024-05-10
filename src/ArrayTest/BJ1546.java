@@ -7,9 +7,9 @@ public class BJ1546 {
     public static void main(String[] args) {
         // 시험 평균 조작하기
         // 시험 과목 개수 N이 주어지고
-        // 입력된 점수 중 최대값 M을 구한 후
-        // 모든 점수를 점수/M * 100한다.
-        // 위의 방법대로 각 점수를 새로 만들어서 평균을 구하는 프로그램 작성
+        // 입력된 점수 중 최대값을 구한 후
+        // 모든 점수를 점수/M * 100하여 배열 수정
+        // 수정된 점수의 평균을 구하는 프로그램 작성
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("과목 개수 입력");
