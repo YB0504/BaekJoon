@@ -43,8 +43,14 @@ public class BJ1546 {
         System.out.println("조작 점수 배열 : "+Arrays.toString(score));
 
         // 조작 점수의 합계
-        for (int k = 0; k < score.length; k++) {
-            sum += score[k];
+//        for (int k = 0; k < score.length; k++) {
+//            sum += score[k];
+//        }
+
+        // 향상된 for문으로 바꿔보기
+        // 위에서 조작된 점수가 double형이기 때문에 double로 선언
+        for (double k : score) {
+            sum = sum + k;
         }
 
         double avg = 0;
